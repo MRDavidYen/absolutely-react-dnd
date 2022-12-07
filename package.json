@@ -1,10 +1,13 @@
 {
-  "name": "dnd",
+  "name": "@MRDavidYen/absolutely-react-dnd",
   "version": "1.0.0",
   "author": "david yen",
   "license": "MIT",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/MRDavidYen"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^23.0.3",
